@@ -1,0 +1,35 @@
+.img{
+    width: 200px;
+    height: 200px;
+}
+.dog{
+    width: 20%;
+    height: 450px;
+    padding: 0px;
+    border-radius: 20%;    
+    background-color : #cfc;
+    font-size: 0.8em;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform .2s; 
+    margin: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+
+}
+.buttondog{
+    width: 70%;
+    background-color : none;
+    border-radius: 20%;   
+}
+.dog:hover{
+    transform: scale(1.1);
+}
+.titledog{
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: center;
+}
